@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ma page web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+   <div class="logo">
+      <a href="#"><span>FOOD</span>express</a>
+   </div>
+ 
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#services">services</a></li>
+      <li><a href="#contact">contacts</a></li>
+      <li><a href="#commander">commander</a></li>
+    </ul>
+</header>
+
+<section  id="Accueil" class="Accueil">
+  <div class="texte">
+    <h1>Bienvenue chez <br> FOODexpress</h1>
+    <p>Bienvenue chez nous !
+       Ici, chaque détail compte pour vous offrir une expérience unique.<br> Que vous soyez curieux, gourmand ou simplement à la recherche d'un moment agréable,<br> vous êtes au bon endroit. Parcourez, découvrez et laissez-vous surprendre !</p>
+  </div>
+ 
+ </section>
+ 
+ <section id="menu" class="container-menu">
+   <div class="acc">
+      <h1 class="position"><span>M</span>enu</h1>
+      <p>Découvrez notre sélection de plats soigneusement préparés pour vous. Bonne dégustation !</p>
+   </div>
+  <div class="cards">
+    <div class="card">
+      <img src="im1.jpeg" alt="Burger">
+           <h3>Boissons</h3>
+            <p>1000 FCFA</p>
+           <p class="couleur">★★★</p>
+        <button>Voir plus</button>
+    </div>
+    <div class="card">
+      <img src="im2.jpeg" alt="Burger">
+           <h3>Cafés</h3>
+            <p>500FCFA</p>
+           <p class="couleur">★★</p>
+        <button>voir plus</button>
+
+    </div>
+    <div class="card">
+      <img src="im3.jpeg" alt="Burger">
+           <h3>venoiserie</h3>
+            <p>1000 FCFA</p>
+           <p class="couleur">★★★★★</p>
+        <button>voir plus</button>
+    </div>
+    <div class="card">
+      <img src="im4.jpeg" alt="Burger">
+           <h3>pâtisserie</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★★★</p>
+        <button>voir plus</button>
+    </div>
+    <div class="card">
+      <img src="im5.jpeg" alt="Burger">
+           <h3>fast food</h3>
+            <p>2000 FCFA</p>
+           <p class="couleur">★★</p>
+        <button>voir plus</button>
+    </div>
+     <div class="card">
+      <img src="im6.jpeg" alt="Burger">
+           <h3>Boulangerie</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★★★</p>
+        <button>voir plus</button>
+    </div>
+     <div class="card">
+      <img src="im7.jpeg" alt="Burger">
+           <h3>Grillades</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★★</p>
+        <button>voir plus</button>
+    </div>
+     <div class="card">
+      <img src="im8.jpeg" alt="Burger">
+           <h3>plats italien</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★★★</p>
+        <button>voir plus</button>
+    </div>
+     <div class="card">
+      <img src="im9.jpeg" alt="Burger">
+           <h3>Plats Asiatique</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★</p>
+        <button>voir plus</button>
+    </div>
+     <div class="card">
+      <img src="im10.jpeg" alt="Burger">
+           <h3>plats Africain</h3>
+            <p>4 500 FCFA</p>
+           <p class="couleur">★★★★★</p>
+        <button>voir plus</button>
+    </div>
+
+ </div>
+</section>
+ 
+      
+<section  id="services" class="services">
+    <div class="photo">
+      <div class="blc">
+        <h1 class="title"><span>S</span>ervices</h1>
+        <p class="pgp">Bienvenue sur FOODexpress, l'endroit où la bonne cuisine rencontre la créativité. <br>
+          Ici, chaque plat raconte une histoire : des saveurs simples, des recettes généreuses, <br> et une envie constante de vous faire plaisir.
+          Nous croyons qu'un bon repas, <br> ce n'est pas seulement de la nourriture… <br><br>
+          C'est un moment, une ambiance, un sourire qui revient sans qu'on le demande. <br>
+          Notre mission est claire : <br>
+          vous offrir une expérience gourmande, moderne et accessible, à chaque visite. <br>
+          Merci de faire partie de l'aventure.
+          Installez-vous, découvrez, et savourez. 
+        </p>
+      </div>
+ 
+        <img src="imm.jpeg" alt="burger plateau">
+    </div>
+ </div>
+</section>
+
+<section id="commander" class="commande-form">
+   
+  <form class="contenu">
+     <h2><span>C</span>ommander</h2>
+
+   <label for="nom_prenoms">Nom et prénoms</label>
+   <input type="text" name="nom" placeholder="votre nom et prénoms" required>
+
+    <label>Téléphone</label>
+    <input type="tel" name="telephone" placeholder="Votre numéro" required>
+
+    <label>Adresse</label>
+    <input type="text" name="adresse" placeholder="Lieu de livraison" required>
+
+    <label>Plat commandé</label>
+    <input type="text" name="plat" placeholder="Nom du plat" required>
+
+    <label>Quantité</label>
+    <input type="number" name="quantite"required>
+
+    <button type="submit">Commander</button>
+  
+  </form>
+
+</section>
+  
+
+<footer id="contact">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>À propos</h3>
+      <p>Nous offrons les meilleurs plats pour votre plaisir gustatif.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email : cherit@gmail.com</p>
+      <p>Téléphone : +225 00 00 00 00</p>
+    </div>
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <p>Facebook | Instagram | Twitter</p>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2025 MonSite. Tous droits réservés.</p>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
